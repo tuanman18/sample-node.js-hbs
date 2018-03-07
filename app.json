@@ -2,6 +2,7 @@
   "name": "sample-node.js-hbs",
   "scripts": {
   },
+  "stack": "container",
   "env": {
   },
   "formation": {
