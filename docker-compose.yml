@@ -6,10 +6,3 @@ services:
             - .:/usr/src/app
         ports:
             - 8001:8000
-            
-    sample-node2:
-        build: .
-        volumes:
-            - .:/usr/src/app
-        ports:
-            - 8002:8000
