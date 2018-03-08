@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 Run cd /usr/src/app/
 
-# Run npm install
+Run npm install
 # Run node --version
 
 # Bundle app source
