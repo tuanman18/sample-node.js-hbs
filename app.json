@@ -2,7 +2,7 @@
   "name": "sample-node.js-hbs",
   "scripts": {
   },
-  "stack": "heroku-16",
+  "stack": "container",
   "env": {
   },
   "formation": {
@@ -16,6 +16,3 @@
     }
   ]
 }
-
-
-
