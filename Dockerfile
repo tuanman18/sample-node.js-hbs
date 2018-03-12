@@ -1,4 +1,4 @@
-FROM node
+FROM heroku/heroku:16
 
 # Create app directory
 RUN mkdir -p /usr/src/app
