@@ -3,7 +3,7 @@
   "scripts": {
     "postdeploy":"rake db:setup && bin/bootstrap"
   },
-  "stack": "heroku-16",
+  "stack": "container",
   "env": {
     "HEROKU_APP_NAME": {
       "required": true
