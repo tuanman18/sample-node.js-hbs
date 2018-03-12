@@ -1,9 +1,16 @@
 {
   "name": "sample-node.js-hbs",
   "scripts": {
+    "postdeploy":"rake db:setup && bin/bootstrap"
   },
-  "stack": "container",
+  "stack": "heroku-16",
   "env": {
+    "HEROKU_APP_NAME": {
+      "required": true
+    },
+    "HEROKU_PARENT_APP_NAME": {
+      "required": true
+    }
   },
   "formation": {
   },
