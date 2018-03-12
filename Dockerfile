@@ -1,4 +1,4 @@
-FROM heroku/heroku:16
+FROM heroku/cedar
 FROM node
 
 # Create app directory
