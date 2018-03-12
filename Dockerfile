@@ -1,4 +1,3 @@
-FROM heroku/heroku:16
 FROM node
 
 # Create app directory
